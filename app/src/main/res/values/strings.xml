@@ -3,4 +3,5 @@
 
     <string name="bem_vindo">Bem vindo ao AnonymusRU!</string>
     <string name="action_settings">Settings</string>
+    <string name="btn_cardapio">Cardapio do Dia</string>
 </resources>
