@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AnonymusRU-app</string>
+
+    <string name="bem_vindo">Bem vindo ao AnonymusRU!</string>
+    <string name="action_settings">Settings</string>
+</resources>
