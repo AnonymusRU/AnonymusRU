@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Act_Cardapio"
+            android:label="@string/title_activity_act__cardapio" >
+        </activity>
     </application>
 
 </manifest>
