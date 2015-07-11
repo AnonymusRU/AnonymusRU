@@ -4,16 +4,23 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 
 public class Act_Cardapio extends ActionBarActivity {
 
-    private String[] listaAlimentos;
+    private String[] listaAlimentos = new String[]{"Arroz", "Frango", "Porco", "Seleta de Legumes"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act__cardapio);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listaAlimentos);
+
+        ListView lv = (ListView) findViewById(R.id.lv);
+        lv.setAdapter(adapter);
     }
 
     @Override

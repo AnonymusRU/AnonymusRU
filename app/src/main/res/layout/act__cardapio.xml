@@ -19,7 +19,7 @@
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="650px"
-        android:id="@+id/list_cardapio"
+        android:id="@+id/lv"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textCardapio"
